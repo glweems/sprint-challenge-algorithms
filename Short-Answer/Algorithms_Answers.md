@@ -41,3 +41,18 @@ From bottom to the top ---> It is cubic 0(n^3)
 ```
 
 ---
+
+### c)
+
+```
+Linear --> 0(n)
+```
+
+```
+def bunnyEars(bunnies):
+if bunnies == 0: # --> O(1)
+return 0 # --> O(1)
+return 2 + bunnyEars(bunnies-1)O(n)
+```
+
+---
