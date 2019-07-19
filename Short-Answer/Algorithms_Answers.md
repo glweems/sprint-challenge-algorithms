@@ -56,3 +56,23 @@ return 2 + bunnyEars(bunnies-1)O(n)
 ```
 
 ---
+
+## Exercise 2
+
+---
+
+```
+n --> n story building (Already ordered)
+eggs --> Unlimited
+f ---> floor number
+
+# Start at the ground floor i.e., f = 0
+f = 0
+# Start a loop from f=0 to n(number of stores in the building)
+for f in range(0,n):
+  # if eggs are broken for a given f then return that "f" value
+  if eggs_broken is True:
+     return f
+  else:
+     return None
+```
